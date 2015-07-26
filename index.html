@@ -32,6 +32,14 @@
 </head>
 <body>
 
+	<button onclick="document.getElementById('background_audio').play()">Play</button>
+    <button onclick="document.getElementById('background_audio').pause()">Pause</button>
+    <button onclick="document.getElementById('background_audio').muted=!document.getElementById('background_audio	').muted">Mute/ Unmute</button>
+
+		<audio loop id="background_audio" autoplay="autoplay">
+		  <source src="music/Crescent.mp3" />
+		</audio> 
+
 <br>
 
 	<center>
